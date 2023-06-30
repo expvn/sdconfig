@@ -62,3 +62,4 @@ tomesd==0.1.2
 urllib3==1.26.15
 voluptuous
 yapf
+wget
