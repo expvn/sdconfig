@@ -1,0 +1,2 @@
+%cd /content
+!wget https://raw.githubusercontent.com/expvn/sdconfig/main/ctninstall.txt -qq
