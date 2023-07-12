@@ -1,4 +1,4 @@
-git clone https://github.com/expvn/aiartvn-ctn /content/aiartvn/extensions
+git clone https://github.com/expvn/aiartvn-ctn /content/aiartvn/extensions/aiartvn-ctn/
 pip install -r /content/aiartvn/extensions/aiartvn-ctn/requirements.txt
 downloadModel('https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.pth')
 downloadModel('https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle.pth')
