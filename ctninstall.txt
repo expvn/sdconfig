@@ -14,3 +14,4 @@ downloadModel('https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/co
 downloadModel('https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_seg.pth')
 downloadModel('https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge.pth')
 downloadModel('https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.pth')
+
