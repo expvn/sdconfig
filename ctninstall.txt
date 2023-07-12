@@ -14,6 +14,11 @@ aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/lll
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_seg.pth -o /aiartvn/extensions/aiartvn-ctn/models/control_v11p_sd15_seg.pth
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge.pth -o /aiartvn/extensions/aiartvn-ctn/models/control_v11p_sd15_softedge.pth
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.pth -o /aiartvn/extensions/aiartvn-ctn/models/control_v11p_sd15s2_lineart_anime.pth
-
-
-
+git clone https://github.com/deforum-art/deforum-for-automatic1111-webui /content/aiartvn/extensions/deforum
+git clone https://github.com/hako-mikan/sd-webui-regional-prompter /content/aiartvn/extensions/sd-webui-regional-prompter
+git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111 /content/aiartvn/extensions/ultimate-upscale-for-automatic1111
+git clone https://github.com/fkunn1326/openpose-editor /content/aiartvn/extensions/openpose-editor
+git clone https://github.com/ClockZinc/sd-webui-IS-NET-pro /content/aiartvn/extensions/sd-webui-IS-NET-pro
+git clone https://github.com/Bing-su/adetailer /content/aiartvn/extensions/adetailer
+git clone https://github.com/s0md3v/sd-webui-roop.git /content/aiartvn/extensions/faceswapper
+sed -i -e "s/roop {version_flag}/Face Swapper {version_flag}/g" /content/aiartvn/extensions/faceswapper/scripts/faceswap.py
