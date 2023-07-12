@@ -1,0 +1,5 @@
+%cd {root}/aiartvn/extensions
+!git clone https://github.com/expvn/aiartvn-ctn
+%cd {root}/aiartvn/extensions/aiartvn-ctn
+!pip install -r requirements.txt
+%cd {root}/aiartvn/extensions/aiartvn-ctn/models
