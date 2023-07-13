@@ -21,4 +21,5 @@ git clone https://github.com/fkunn1326/openpose-editor /content/aiartvn/extensio
 git clone https://github.com/ClockZinc/sd-webui-IS-NET-pro /content/aiartvn/extensions/sd-webui-IS-NET-pro
 git clone https://github.com/Bing-su/adetailer /content/aiartvn/extensions/adetailer
 git clone https://github.com/s0md3v/sd-webui-roop.git /content/aiartvn/extensions/faceswapper
+git clone https://github.com/Elldreth/loopback_scaler /content/aiartvn/extensions/loopback_scaler
 sed -i -e "s/roop {version_flag}/Face Swapper {version_flag}/g" /content/aiartvn/extensions/faceswapper/scripts/faceswap.py
