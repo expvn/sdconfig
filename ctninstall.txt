@@ -1,4 +1,4 @@
-git clone https://github.com/expvn/aiartvn-ctn /content/aiartvn/extensions/aiartvn-ctn/
+git clone https://github.com/Mikubill/sd-webui-controlnet.git /content/aiartvn/extensions/aiartvn-ctn/
 pip install -r /content/aiartvn/extensions/aiartvn-ctn/requirements.txt
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/nolanaatama/controlnetv1.1/resolve/main/control_v11e_sd15_ip2p_fp16.safetensors -o /aiartvn/extensions/aiartvn-ctn/models/control_v11e_sd15_ip2p_fp16.safetensors
 aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/nolanaatama/controlnetv1.1/resolve/main/control_v11e_sd15_shuffle_fp16.safetensors -o /aiartvn/extensions/aiartvn-ctn/models/control_v11e_sd15_shuffle_fp16.safetensors
